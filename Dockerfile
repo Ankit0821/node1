@@ -1,5 +1,5 @@
 # use a node base image
-FROM node:7-onbuild
+FROM nginx:latest
 
 # set maintainer
 LABEL maintainer "miiro@getintodevops.com"
