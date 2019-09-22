@@ -1,6 +1,8 @@
 # use a node base image
 FROM nginx:latest
 
+COPY Node_1 /usr/share/nginx/html
+
 # set maintainer
 LABEL maintainer "miiro@getintodevops.com"
 
